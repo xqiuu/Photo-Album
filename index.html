@@ -157,12 +157,6 @@ body {
     display: block;
 }
 
-.photo-caption {
-    padding: 15px;
-    text-align: center;
-    font-weight: 600;
-}
-
 @keyframes fadeIn {
     from { opacity: 0; }
     to { opacity: 1; }
@@ -211,7 +205,6 @@ body {
 .split-left img {
   max-width: 100%;
   height: auto;
-  border-radius: 8px;
 }
 
 
@@ -243,7 +236,7 @@ body {
   position: relative;
   width: var(--image-size, 60vmin);
   aspect-ratio: 1 / 1;
-  overflow: visible;
+  overflow: hidden;
   cursor: pointer;
   transition: width 0.4s ease, height 0.4s ease;
 }
